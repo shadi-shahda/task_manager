@@ -1,16 +1,5 @@
 # flutter_application_1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+قرارات التصميم كانت مأخوذة من النت من ناحية الواجهات التي تم تصميمها 
+المشكلات التي واجهتها وحل كل مشكلة : 
+1. ان ال موقع لا يخزن الداتا (المهام) التي تمت اضافتها من قبل المستخدم ولكن تمت معالجة هذه المشكلة بالتخزين المحلي بحيث يتم تخزين المهام على ذاكرة الجهاز 
+2. ان الموقع لا يقوم بحذف الداتا(المهام) التي يقوم المستخدم بحذفها وتمت معاجلة هذه المشكلة من خلال تخزين المهام التي تم حذفها في الذاكرة المحلية و يتم حذفها من اللائحة التي يتم عرضها في الواجهة الرئيسية
